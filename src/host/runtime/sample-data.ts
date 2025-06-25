@@ -31,7 +31,7 @@ export const SAMPLE_DATA: Component = {
         key: uuid(),
         type: COMPONENT_TYPE.Box,
         props: {
-          padding: 20,
+          padding: 16,
           width: 200,
           backgroundColor: "#ea39a6",
           children: [
@@ -50,7 +50,7 @@ export const SAMPLE_DATA: Component = {
         key: uuid(),
         type: COMPONENT_TYPE.Box,
         props: {
-          padding: 20,
+          padding: 16,
           width: 200,
           backgroundColor: "black",
           children: [

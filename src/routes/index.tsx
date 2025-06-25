@@ -6,8 +6,10 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="p-2">
-      <h3>Welcome Home!</h3>
+    <div className="bold underline">
+      <h3>Hello from Builder!</h3>
+
+      <iframe src="/iframe" />
     </div>
   );
 }

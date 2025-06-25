@@ -21,9 +21,11 @@ To get a sense of what Makeswift is, please check out the real [Makeswift](https
 
 We expect this assignment to take about 3-4 hours. **The timeframe is intentionally tight** - we don't expect candidates to finish everything perfectly. Focus on demonstrating your approach to the core challenges and document what you would do with more time.
 
-You're encouraged to use any tools that help you be productive during the take-home assignment, including AI coding assistants like Claude Code.
+You're encouraged to use any tools that help you be productive during the take-home assignment, including AI coding assistants like Claude Code. However, please note that in a follow-up interview, we will evaluate your ability to reason through and explain your solution without these tools, so make sure you understand your implementation thoroughly.
 
-The goal is to see how you approach complex problems, architect solutions, and communicate your design decisions.
+We expect to be able to run your submission, so please ensure your code is functional.
+
+This assignment is purposefully open-ended. We will evaluate your submission holistically. The goal is to see how you approach complex problems, architect solutions, and communicate your design decisions.
 
 ## Questions?
 

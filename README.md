@@ -1,69 +1,30 @@
-# React + TypeScript + Vite
+# Makeswift Coding Assignment - Makeswift Mini
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Makeswift is a visual page builder that allows users to create and edit websites without writing code. In this assignment, you will build **Makeswift Mini**, a simplified version of Makeswift.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Makeswift Mini](/makeswift-mini.jpg)
 
-## Expanding the ESLint configuration
+Makeswift Mini consists of two main components: the **builder** and the **host**. The builder renders the host as an iframe and allows users to edit the page visually. The host is the actual page that users will see when they publish their work on live sites.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+To get a sense of what Makeswift is, please check out the real [Makeswift](https://makeswift.com/).
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Assignment
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. **Communication System**: Create a communication system between the builder and the host using `postMessage` API.
+2. **Overlay**: Create an overlay in the builder that allows users to hover over elements and select them visually.
+3. **Property Editor**: When an element is selected, display its properties in the sidebar and allow users to edit them. Any updates should be reflected in the host in real-time.
+4. **NOTES.md**: Update the `NOTES.md` file with any notes, design decisions, or trade-offs you made during the implementation. If you haven't finished the assignment, please explain what you would have done with more time.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Timeframe and Evaluation Criteria
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+We expect this assignment to take about 3-4 hours. **The timeframe is intentionally tight** - we don't expect candidates to finish everything perfectly. Focus on demonstrating your approach to the core challenges and document what you would do with more time.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+You're encouraged to use any tools that help you be productive during the take-home assignment, including AI coding assistants like Claude Code.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The goal is to see how you approach complex problems, architect solutions, and communicate your design decisions.
+
+## Questions?
+
+If you have any questions about the assignment, please don't hesitate to reach out to us. Have fun!

@@ -1,3 +1,6 @@
+import { renderComponent } from "./runtime/runtime";
+import { SAMPLE_DATA } from "./runtime/sample-data";
+
 export function Host() {
-  return <p>Hello from Host</p>;
+  return renderComponent(SAMPLE_DATA);
 }

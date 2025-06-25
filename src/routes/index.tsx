@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "../components/Header";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -6,10 +7,22 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="bold underline">
-      <h3>Hello from Builder!</h3>
+    <div className="min-h-screen flex flex-col">
+      <Header />
 
-      <iframe src="/iframe" />
+      <main className="flex flex-1 border-t border-gray-200">
+        <section className="flex-1 p-6 bg-gray-50">
+          <iframe
+            src="/iframe"
+            title="Preview"
+            className="w-full h-full bg-white border border-gray-200 rounded-lg"
+          />
+        </section>
+
+        <aside className="w-72 border-l border-gray-200 p-6">
+          <h2 className="text-lg font-medium text-gray-900 mb-4">Sidebar</h2>
+        </aside>
+      </main>
     </div>
   );
 }

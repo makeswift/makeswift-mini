@@ -37,11 +37,9 @@ export function renderComponent(component: Component): ReactNode {
       const { children, ...props } = component.props;
 
       return (
-        <Box
-          key={component.key}
-          {...props}
-          children={children?.map(renderComponent)}
-        />
+        <Box key={component.key} {...props}>
+          {children?.map(renderComponent)}
+        </Box>
       );
     }
     case COMPONENT_TYPE.Text:

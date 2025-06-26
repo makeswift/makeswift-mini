@@ -60,7 +60,7 @@ This assignment is purposefully open-ended. We will evaluate your submission hol
 When you're ready to submit your assignment:
 
 1. Create a public repository on GitHub with your solution
-2. Deploy your application to a hosting service (e.g., Vercel, Netlify, GitHub Pages, etc.)
+2. Deploy your application to a hosting service (e.g., Vercel, Netlify, etc.)
 3. Add the deployed application link to your GitHub repository details
 4. Send us the link to your GitHub repository
 

@@ -10,12 +10,40 @@ Makeswift Mini consists of two main components: the **builder** and the **host**
 
 To get a sense of what Makeswift is, please check out the real [Makeswift](https://makeswift.com/).
 
+## Getting Started
+
+1. Clone the repository (do not fork):
+
+   ```bash
+   git clone <repository-url>
+   cd makeswift-mini
+   ```
+
+2. Prerequisites:
+
+   - Node.js 22 or higher
+   - pnpm 10 or higher
+
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Start the development server:
+   ```bash
+   pnpm dev
+   ```
+
 ## Assignment
 
-1. **Communication System**: Create a communication system between the builder and the host using `postMessage` API.
+1. **Communication System**: Create a communication system between the builder and the host using `postMessage` API. Design the system so that it'll work even if the host is rendered on a different domain.
 2. **Overlay**: Create an overlay in the builder that allows users to hover over elements and select them visually.
 3. **Property Editor**: When an element is selected, display its properties in the sidebar and allow users to edit them. Any updates should be reflected in the host in real-time.
-4. **NOTES.md**: Update the `NOTES.md` file with any notes, design decisions, or trade-offs you made during the implementation. If you haven't finished the assignment, please explain what you would have done with more time.
+4. **NOTES.md**: Update the `NOTES.md` file with any notes, design decisions, testing plan, or trade-offs you made during the implementation. If you haven't finished the assignment, please explain what you would have done with more time.
+
+- Focus on updating the code in the `src/builder` and `src/host` directories.
+- You can use any library that can help you implement the features.
 
 ## Timeframe and Evaluation Criteria
 
@@ -26,6 +54,15 @@ You're encouraged to use any tools that help you be productive during the take-h
 We expect to be able to run your submission, so please ensure your code is functional.
 
 This assignment is purposefully open-ended. We will evaluate your submission holistically. The goal is to see how you approach complex problems, architect solutions, and communicate your design decisions.
+
+## Submission
+
+When you're ready to submit your assignment:
+
+1. Create a public repository on GitHub with your solution
+2. Deploy your application to a hosting service (e.g., Vercel, Netlify, GitHub Pages, etc.)
+3. Add the deployed application link to your GitHub repository details
+4. Send us the link to your GitHub repository
 
 ## Questions?
 

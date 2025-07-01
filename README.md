@@ -16,7 +16,7 @@ To get a feel for what Makeswift is all about, we'd love for you to check out th
 
 Ready to dive in? Let's get you up and running!
 
-1. Clone the repository:
+1. Clone the repository (do not fork):
 
    ```bash
    git clone <repository-url>
@@ -57,6 +57,10 @@ We expect this assignment to take about 3-4 hours. **Here's the thing - the time
 Feel free to use any tools that help you be productive, including AI coding assistants like Claude Code. Just keep in mind that if selected for a follow-up interview, you'll need to discuss your solution and reasoning without these tools, so make sure you understand your implementation well.
 
 This assignment is purposefully open-ended because we want to see your unique approach! We'll evaluate your submission holistically, focusing on how you tackle complex problems, architect solutions, and communicate your design decisions.
+
+## Submission Guidelines
+
+**Important**: Please do not host your submission publicly on GitHub or any other public platform. Follow the submission instructions provided to you separately to ensure your work remains private during the evaluation process.
 
 ## Questions?
 

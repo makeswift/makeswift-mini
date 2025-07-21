@@ -48,6 +48,7 @@ Here's what we'd love to see you build:
 3. **Property Editor**: When an element is selected, display its properties in the sidebar and allow users to edit them. Any updates should be reflected in the host in real-time.
 
 - The Box and Text components on the host should not contain any visual editing logic or have any knowledge of Makeswift Mini. This ensures that the host components are plug-and-play with any React component.
+- **Think big picture!** Architect your system for extensibility so it can easily grow to support features like dynamic component registration, real-time collaboration, and whatever comes next. We’re eager to see how you design for the future!
 - Feel free to use any library that can help you implement the features - we're all about efficiency!
 - Share your journey! Update the `NOTES.md` file with any notes, design decisions, how you used LLMs including your prompting strategy, trade-offs you made during the implementation, or what you'd tackle next with more time.
 
